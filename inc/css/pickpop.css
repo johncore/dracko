@@ -1,0 +1,50 @@
+
+
+#picpop {
+	background-color: #FFFFFF;
+	left: 10px;
+	position: relative;
+	top: 10px;
+	width: 135px;
+}
+
+#picpop a .large {
+	border: 0px;
+	display: block;
+	height: 1px;
+	left: -1px;
+	position: absolute;
+	top: -1px;
+	width: 1px;
+}
+
+#picpop a img {
+	border: 0;
+}
+
+#picpop a.p1, #picpop a.p1:visited {
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	display: block;
+	height: 90px;
+	left: 0;
+	text-decoration: none;
+	top: 0;
+	width: 135px;
+}
+
+#picpop a.p1:hover {
+	background-color: #8C97A3;
+	color: #000000;
+	text-decoration: none;
+}
+
+#picpop a.p1:hover .large {
+	border: 1px solid #000000;
+	display: block;
+	height: 233px;
+	left: 150px;
+	position: absolute;
+	top: -60px;
+	width: 300px;
+}
